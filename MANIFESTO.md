@@ -42,7 +42,7 @@ A Directed System consists of five interconnected components:
 
 ### The Directing Agent
 
-Not a chatbot. Not an assistant. An autonomous system with long-term memory and access to tools. It monitors, analyzes, detects opportunities, and issues work orders—not suggestions.
+Not a chatbot. Not an assistant. An autonomous system with long-term memory and access to tools. It monitors, analyzes, detects opportunities, and issues work orders, not suggestions.
 
 ### The Operational Framework
 
@@ -58,7 +58,7 @@ The human. The biological interface that executes, validates, and reports. Not b
 
 ### The Feedback Loop
 
-Results flow back. The operator doesn't just mark "done"—they qualify the instruction. "Task 3 was impossible because the bank was closed. Update your schedule database." The agent learns. The system improves.
+Results flow back. The operator doesn't just mark "done"; they qualify the instruction. "Task 3 was impossible because the bank was closed. Update your schedule database." The agent learns. The system improves.
 
 ---
 
@@ -110,7 +110,7 @@ Legibility is not a luxury. It is infrastructure.
 
 We are in a singular moment. The technology for directing agents exists, imperfect but functional. Legal and social systems still require humans as points of responsibility. The robotization of the physical world advances but hasn't arrived.
 
-This configuration—agents capable of deciding, humans necessary to execute—is temporary. Perhaps it lasts five years. Perhaps fifteen. But it is not permanent.
+This configuration (agents capable of deciding, humans necessary to execute) is temporary. Perhaps it lasts five years. Perhaps fifteen. But it is not permanent.
 
 What we do during this window determines who captures the value of the transition.
 
@@ -186,14 +186,14 @@ The window is open. We don't know for how long.
 
 ---
 
-*Directed Systems — v0.1*
+*Directed Systems v0.1*
 *December 2025*
 
-— Petru Arakiss
+Petru Arakiss
 
 ---
 
 ## Changelog
 
-### v0.1 — December 2025
+### v0.1 (December 2025)
 - Initial public release

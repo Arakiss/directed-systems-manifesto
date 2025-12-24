@@ -26,9 +26,9 @@ What comes now is the formalization of something already happening: **the comple
 
 ## Emerging Roles
 
-- **Directed Operators** — Professionals who receive instructions from agents, execute with judgment, and provide feedback
-- **Framework Architects** — People who define the rules and boundaries under which agents operate
-- **Exception Debuggers** — Those who resolve what the agent cannot, where value concentrates
+- **Directed Operators**: Professionals who receive instructions from agents, execute with judgment, and provide feedback
+- **Framework Architects**: People who define the rules and boundaries under which agents operate
+- **Exception Debuggers**: Those who resolve what the agent cannot, where value concentrates
 
 ## Version
 
