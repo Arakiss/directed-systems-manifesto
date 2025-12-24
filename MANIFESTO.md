@@ -190,3 +190,10 @@ The window is open. We don't know for how long.
 *December 2025*
 
 — Petru Arakiss
+
+---
+
+## Changelog
+
+### v0.1 — December 2025
+- Initial public release
