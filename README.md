@@ -6,7 +6,7 @@ Why humans remain necessary in an AI-driven world, and how to prepare. Based on 
 
 ## Read
 
-- **[MANIFESTO.md](./MANIFESTO.md)** — Full document
+- **[GUIDE.md](./GUIDE.md)** — Full document
 - **[directed.systems](https://directed.systems)** — Website
 
 ## What This Document Answers
