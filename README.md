@@ -1,30 +1,35 @@
 # Directed Systems
 
-> On Human-AI Collaboration in the Age of Autonomous Agents
+> A Practical Guide to Working With AI
 
-A document structured in four parts:
-
-1. **What We Know**: 70 years of automation research
-2. **What We Propose**: A framework for thinking about directed configurations
-3. **What We Do Not Know**: Explicit acknowledgment of uncertainty
-4. **Practical Implications**: For individuals, organizations, and researchers
+Why humans remain necessary in an AI-driven world, and how to prepare. Based on 70 years of automation research.
 
 ## Read
 
 - **[MANIFESTO.md](./MANIFESTO.md)** — Full document
 - **[directed.systems](https://directed.systems)** — Website
 
+## What This Document Answers
+
+1. **Why are humans still necessary?** Based on research from Fitts (1951) through Bainbridge (1983) to current Stanford/MIT/WEF studies.
+
+2. **What skills are changing in value?** Information processing decreasing, interpersonal and judgment skills increasing.
+
+3. **How should you prepare?** Five practical strategies for any profession.
+
+4. **What are the risks?** The ironies of automation, the substitution myth, and why they remain unsolved.
+
 ## Key Concepts
 
 **Levels of Automation** (Sheridan & Verplank, 1978): "Directed" refers to configurations where AI holds significant decision-making authority while humans retain execution and oversight.
 
-**Ironies of Automation** (Bainbridge, 1983): The monitoring problem, skill decay, difficulty transfer, and designer error. Unsolved after 40 years.
+**The Centaur Principle**: Human-AI collaboration can outperform either alone when well-designed (Kasparov's advanced chess, Mayo Clinic radiology).
 
-**Substitution Myth** (Dekker & Woods, 2002): The false belief that machines can replace human tasks without transforming work.
+**Ironies of Automation** (Bainbridge, 1983): Automation makes remaining work harder, skills decay, monitoring fails, opacity kills. Unsolved after 40 years.
 
 ## What This Is Not
 
-This document does not claim discovery. The proposed framework should be evaluated on usefulness, not treated as established fact.
+A manifesto claiming to define the future. It is a practical guide summarizing research and offering preparation advice.
 
 ## Version
 

@@ -1,194 +1,192 @@
 # Directed Systems
 
-## On Human-AI Collaboration in the Age of Autonomous Agents
+## A Practical Guide to Working With AI
 
-Something is shifting in how work gets done. This document attempts to synthesize what we know from research, acknowledge what we do not know, and offer a framework for thinking about it.
-
-We make no claim of discovery. The question of how humans and machines collaborate has been studied since 1951. What follows draws heavily from that research.
+Something is changing in the nature of work. This guide explains what we know about that change, why humans remain necessary, and how to prepare.
 
 ---
 
-## Part I: What We Know
+## The Shift
 
-### The Seventy-Year Question
+In 2021, Sam Altman observed: "AI will cause the price of work that can happen in front of a computer to decrease much faster than the price of work that happens in the physical world."
 
-In 1951, Paul Fitts published the first systematic comparison of human versus machine capabilities for the US Air Force. His question was simple: what should humans do, and what should machines do?
+By 2025, this is measurable:
 
-That question has never been satisfactorily answered.
+- Stanford's WORKBank study found workers in 36% of occupations already using AI for at least a quarter of their tasks.
+- The World Economic Forum projects 39% of existing skills will be transformed or outdated by 2030.
+- MIT estimates AI is now capable of performing work equal to 11.7% of U.S. jobs, though adoption lags capability.
 
-Lisanne Bainbridge, in her landmark 1983 paper "Ironies of Automation," documented why simple task allocation fails:
+The pattern is clear: work involving information processing is being transformed. Work requiring physical presence, trust, and human judgment is not.
 
-> "The more advanced a control system is, the more crucial may be the contribution of the human operator."
-
-Her ironies remain unsolved:
-
-1. **The monitoring problem.** Humans are poor at monitoring automated systems. Vigilance degrades. When the system finally needs intervention, the human is least prepared to provide it.
-
-2. **The skill decay problem.** Automation removes opportunities for practice. The skills needed to handle system failures atrophy precisely because the system rarely fails.
-
-3. **The difficulty transfer problem.** Automation typically handles routine cases, leaving humans with only the exceptions. This does not reduce workload; it concentrates difficulty.
-
-4. **The designer error problem.** We focus on "human error" but rarely discuss errors in automation design. The designer's mistakes become embedded in the system.
-
-In 2002, Sidney Dekker and David Woods named the core fallacy: the "substitution myth." The belief that machines can replace human tasks without changing the nature of work itself.
-
-This myth persists. It is wrong.
-
-### The Levels of Automation
-
-Thomas Sheridan and William Verplank (1978) proposed that automation is not binary. There are levels, from "human does everything" to "machine does everything autonomously."
-
-The interesting space is in between: systems where machines and humans share control in various configurations.
-
-"Directed Systems" refers to configurations toward the higher end of this spectrum, where the AI system holds significant decision-making authority while humans retain execution, oversight, or veto power.
-
-This is not a new concept. It is a region of Sheridan and Verplank's framework that is becoming increasingly relevant as AI capabilities expand.
-
-### What Current Research Shows
-
-Stanford's WORKBank study (2025) surveyed 1,500 workers across 104 occupations. Key findings:
-
-- By early 2025, workers in 36% of occupations were using AI for at least 25% of their tasks.
-- The dominant pattern is neither full automation nor pure human work. It is collaboration.
-- The shift in valuable skills is from information processing toward interpersonal capabilities.
-
-This aligns with Sam Altman's 2021 observation: "AI will cause the price of work that can happen in front of a computer to decrease much faster than the price of work that happens in the physical world."
-
-The data supports this. Work that requires physical presence, trust-building, and contextual judgment retains value. Work that is primarily information processing faces pressure.
-
-### The Centaur Evidence
-
-After losing to Deep Blue in 1997, Garry Kasparov created "advanced chess": humans and computers playing together.
-
-The notable result from freestyle tournaments (2005): amateur players with ordinary computers, who had developed effective collaboration methods, defeated both grandmasters and superior hardware.
-
-This "centaur" pattern appears elsewhere. Mayo Clinic's radiology department grew by 55% between 2016 and 2025 while deploying over 250 AI models. The AI handles measurement and detection; humans handle diagnosis and patient interaction.
-
-The pattern suggests that effective human-AI collaboration can outperform either alone, but only when the interface is well-designed and the human understands how to work with the system.
+This is not speculation. It is happening now.
 
 ---
 
-## Part II: What We Propose
+## Why Humans Are Still Necessary
 
-The following is not derived from the research above. It is a framework we propose for thinking about human-AI collaboration in directed configurations. It should be evaluated on its usefulness, not treated as established fact.
+The question "what should humans do versus machines?" has been studied since 1951. Seventy years of research points to consistent answers.
 
-### Why "Directed"?
+### What AI Does Well
 
-We use "directed" to describe systems where:
+- Processing large amounts of information quickly
+- Finding patterns in data
+- Generating content based on learned patterns
+- Performing repetitive cognitive tasks without fatigue
+- Maintaining consistency across thousands of decisions
 
-- An AI system makes operational decisions within defined boundaries
-- Humans define those boundaries, execute physical actions, and provide oversight
-- The flow of decision-making runs primarily from system to human at the operational level
+### What AI Does Poorly
 
-This is distinct from "assisted" systems (where AI supports human decisions) and "autonomous" systems (where humans are removed from the loop entirely).
+- Learning from small amounts of information (humans need few examples; AI needs many)
+- Extrapolating beyond training data to genuinely new situations
+- Building trust and rapport with other humans
+- Reading social and emotional context
+- Operating in unstructured physical environments
+- Making judgments that require understanding unstated assumptions
 
-### A Proposed Structure
+This is not about what AI cannot do "yet." These limitations reflect fundamental differences in how humans and machines process the world. Some will narrow over time. Others are structural.
 
-We suggest that directed systems can be understood through five functional roles. These are not components to be built, but lenses for analysis:
+### The Centaur Principle
 
-**1. The Autonomous System**
+After Garry Kasparov lost to Deep Blue in 1997, he created a new form of chess: humans and computers playing together against other human-computer teams.
 
-The AI that processes information, identifies opportunities, and generates directives. In current implementations, this might be an LLM with tool access, a multi-agent system, or purpose-built automation.
+The surprising result: amateur players with ordinary computers who had developed effective collaboration methods beat both grandmasters and superior hardware playing alone.
 
-**2. The Boundary Definition**
+This pattern repeats across domains. Mayo Clinic's radiology department grew by 55% between 2016 and 2025 while deploying over 250 AI models. The AI handles measurement and pattern detection. Humans handle diagnosis and patient care. Neither replaces the other.
 
-The constraints within which the system operates. What decisions it can make. What actions are prohibited. What values are non-negotiable. This is where human authority must be absolute and explicit.
-
-**3. The Translation Layer**
-
-How system-level decisions become human-executable actions. A directive like "increase customer retention" must become specific, concrete steps. This translation is often where systems fail.
-
-**4. The Human Executor**
-
-The person who acts in the physical and social world. They execute directives, but also exercise judgment: recognizing when a directive is wrong, impossible, or requires escalation.
-
-**5. The Learning Mechanism**
-
-How the system improves from results. The human does not merely complete tasks; they provide information that refines system behavior. This feedback is valuable and should be treated as such.
-
-### Three Points of Human Leverage
-
-If this framework is useful, it suggests three places where humans retain significant power:
-
-**Boundary-setting**: Whoever defines the constraints controls what the system can and cannot do. This is architectural power.
-
-**Execution choice**: The system can direct, but cannot force. The human who executes retains veto power, whether explicit or through inaction.
-
-**Feedback quality**: The system learns from what humans report. Accurate feedback improves the system; poor feedback degrades it.
-
-### The Legibility Requirement
-
-One lesson from automation failures (Boeing 737 MAX, Tesla Autopilot incidents) is that opacity kills.
-
-When humans cannot understand what a system is doing or why, they cannot:
-- Calibrate their trust appropriately
-- Recognize when intervention is needed
-- Provide useful feedback for improvement
-
-A directed system that humans cannot understand is not a collaboration. It is a liability.
+The lesson: the question is not "human or AI?" It is "how do they work together effectively?"
 
 ---
 
-## Part III: What We Do Not Know
+## What Changes For You
 
-Intellectual honesty requires acknowledging gaps:
+The shift in valuable skills is consistent across research:
 
-**We do not know if directed configurations are stable.** They may be a transitional phase between human-led and fully autonomous systems. The window during which humans are necessary for execution may be shorter than expected.
+**Decreasing in value:**
+- Information processing (gathering, organizing, summarizing data)
+- Routine analysis (applying known frameworks to standard situations)
+- Content production (writing, design, coding that follows established patterns)
 
-**We do not know if the centaur pattern generalizes.** Chess and radiology may be special cases. The conditions for successful human-AI collaboration may be narrower than the optimistic reading suggests.
+**Increasing in value:**
+- Interpersonal capabilities (building trust, resolving conflict, reading people)
+- Judgment in ambiguous situations (when the right answer is not clear)
+- Physical presence and manipulation (work that requires being somewhere)
+- Domain expertise combined with AI literacy (knowing what to ask and how to evaluate answers)
+- Defining constraints and goals (telling systems what to optimize for)
 
-**We do not know how to solve Bainbridge's ironies.** Forty years of research has not produced reliable solutions to skill decay, monitoring failures, or difficulty concentration. Our framework does not solve them either.
-
-**We do not know if "human in the loop" provides real safety.** Critics argue it often functions as what Madeleine Clare Elish calls a "moral crumple zone": humans absorb blame when systems fail, without having meaningful control.
-
-**We do not know the labor implications.** Whether directed systems create, transform, or eliminate jobs at scale is an empirical question we cannot answer from first principles.
+This does not mean information work disappears. It means the nature of that work changes. You shift from doing the processing to directing the processing and evaluating the output.
 
 ---
 
-## Part IV: Practical Implications
+## The Risks
 
-If the framework above is useful, some implications follow:
+Seventy years of automation research also documents consistent failure patterns.
 
-### For Individuals
+### The Ironies of Automation
 
-The shift from information-processing skills to interpersonal and physical skills appears real. This suggests:
+Lisanne Bainbridge documented in 1983 what she called "ironies of automation." They remain unsolved:
 
-- Developing capabilities AI handles poorly: building trust, reading context, physical manipulation in unstructured environments
-- Understanding how AI systems work well enough to collaborate effectively
-- Recognizing that "working with AI" is becoming a skill category of its own
+1. **Automation makes remaining human work harder.** When systems handle routine cases, humans are left with only the exceptions. This concentrates difficulty rather than reducing it.
 
-### For Organizations
+2. **Skills decay without practice.** The abilities needed when systems fail atrophy precisely because systems rarely fail. When they do fail, humans are least prepared.
 
-Deploying AI in directed configurations requires attention to:
+3. **Monitoring is exhausting.** Humans are poor at watching automated systems and waiting for something to go wrong. Vigilance degrades over time.
 
-- Boundary definition: being explicit about what the system can and cannot decide
-- Translation quality: ensuring system outputs become executable human actions
-- Feedback mechanisms: treating human input as valuable data, not compliance checkbox
-- Legibility: ensuring humans can understand system behavior well enough to intervene
+4. **Opacity is dangerous.** When humans cannot understand what a system is doing, they cannot intervene effectively. The Boeing 737 MAX crashes killed 346 people in part because pilots had no mental model of the automation's behavior.
 
-### For Researchers
+These are not solved problems. Any system where AI directs and humans execute must account for them.
 
-Open questions include:
+### The Substitution Myth
 
-- Under what conditions does human-AI collaboration outperform either alone?
-- How do we measure the quality of human-AI interfaces?
-- Can Bainbridge's ironies be mitigated in directed configurations?
-- What determines whether humans retain meaningful agency in high-automation environments?
+Sidney Dekker and David Woods identified the "substitution myth": the false belief that machines can replace human tasks without changing the nature of work itself.
+
+This never happens. Introducing automation transforms remaining work. Sometimes it makes work easier. Sometimes it makes work harder in ways the designers did not anticipate. The transformation itself must be managed.
+
+---
+
+## How to Prepare
+
+Based on what we know:
+
+### 1. Develop capabilities AI handles poorly
+
+Focus on skills that remain distinctly human:
+
+- Building trust and rapport with people
+- Reading context and unstated assumptions
+- Making judgments when information is incomplete
+- Physical presence and interaction
+- Navigating ambiguous social situations
+
+These are not consolation prizes. They are where human value concentrates as AI handles information processing.
+
+### 2. Learn to work with AI effectively
+
+The centaur principle suggests that effective human-AI collaboration is itself a skill. This means:
+
+- Understanding what AI systems can and cannot do
+- Knowing how to evaluate AI output (when to trust it, when to verify)
+- Developing methods for directing AI toward useful work
+- Recognizing when AI is wrong or hallucinating
+
+This is not "prompt engineering." That was a transitional skill that already peaked. This is deeper: understanding how to collaborate with systems that have different strengths and weaknesses than you do.
+
+### 3. Combine domain expertise with AI literacy
+
+The most valuable position is knowing your field deeply AND understanding how AI applies to it. Neither alone is sufficient.
+
+Pure domain experts without AI literacy will find their information-processing work automated. Pure AI generalists without domain expertise cannot evaluate whether outputs make sense.
+
+### 4. Focus on defining problems, not just solving them
+
+AI systems optimize for objectives they are given. Defining good objectives, setting appropriate constraints, and identifying what should NOT be optimized are increasingly valuable.
+
+This is architectural work: shaping what systems do rather than doing the work yourself.
+
+### 5. Build feedback skills
+
+AI systems improve from human feedback. The ability to evaluate output precisely, identify specific problems, and communicate corrections clearly becomes valuable.
+
+You are not just using AI. You are training it.
+
+---
+
+## What We Do Not Know
+
+Intellectual honesty requires acknowledging uncertainty:
+
+- **We do not know how fast this changes.** The current configuration (AI that can decide, humans that must execute) may last decades or may shift rapidly.
+
+- **We do not know if the centaur pattern holds everywhere.** Some domains may see human-AI collaboration outperform both. Others may tip toward full automation.
+
+- **We do not know the labor implications.** Whether this creates, transforms, or eliminates jobs at scale is an empirical question we cannot answer in advance.
+
+- **We have not solved the ironies of automation.** Forty years of research has not produced reliable solutions. Systems that put AI in charge and humans in support inherit these problems.
+
+Anyone claiming certainty about how this unfolds is guessing.
+
+---
+
+## What "Directed Systems" Means
+
+We use "directed" to describe a specific configuration: systems where AI holds significant decision-making authority while humans retain execution, oversight, and the ability to intervene.
+
+This is one region on a spectrum. At one end, humans decide and AI assists. At the other, AI operates autonomously. "Directed" describes the middle ground that is becoming common: AI determines what should happen, humans make it happen and verify the results.
+
+Understanding this configuration matters because it is where many work relationships with AI are heading. Not full automation. Not simple assistance. Something in between that requires its own skills.
 
 ---
 
 ## Sources
 
-This document draws from:
+This guide draws from:
 
-- Fitts, P.M. (1951). "Human engineering for an effective air navigation and traffic control system." Ohio State University Research Foundation.
-- Sheridan, T.B. & Verplank, W.L. (1978). "Human and Computer Control of Undersea Teleoperators." MIT Man-Machine Systems Laboratory.
-- Bainbridge, L. (1983). "Ironies of Automation." Automatica, 19(6), 775-779.
-- Dekker, S.W.A. & Woods, D.D. (2002). "MABA-MABA or Abracadabra? Progress on Human-Automation Co-ordination." Cognition, Technology & Work, 4, 240-244.
-- Elish, M.C. (2019). "Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction." Engaging Science, Technology, and Society, 5, 40-60.
-- Shao, Y. et al. (2025). "Future of Work with AI Agents: Auditing Automation and Augmentation Potential." Stanford Digital Economy Lab.
-- NASA (2023). "Analyses of the Boeing 737-MAX Accidents: Formal Models and Psychological Perspectives."
-- McKinsey Global Institute (2025). "Agents, robots, and us: Skill partnerships in the age of AI."
+- Fitts, P.M. (1951). Human engineering for an effective air navigation and traffic control system.
+- Sheridan, T.B. & Verplank, W.L. (1978). Human and Computer Control of Undersea Teleoperators.
+- Bainbridge, L. (1983). Ironies of Automation. Automatica, 19(6), 775-779.
+- Dekker, S.W.A. & Woods, D.D. (2002). MABA-MABA or Abracadabra? Cognition, Technology & Work.
+- Elish, M.C. (2019). Moral Crumple Zones. Engaging Science, Technology, and Society.
+- Shao, Y. et al. (2025). Future of Work with AI Agents. Stanford Digital Economy Lab.
+- McKinsey Global Institute (2025). Agents, robots, and us.
 
 ---
 
