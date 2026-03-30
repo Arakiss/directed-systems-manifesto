@@ -1,39 +1,33 @@
 # Directed Systems
 
-> A Practical Guide to Working With AI
+> A Practitioner Paper on AI, Human Agency, and the Reorganization of Work
 
-Why humans remain necessary in an AI-driven world, and how to prepare. Based on 70 years of automation research.
+A practitioner paper on AI systems that direct work while humans retain consequence.
 
 ## Read
 
-- **[GUIDE.md](./GUIDE.md)** — Full document
+- **[GUIDE.md](./GUIDE.md)** — Full paper
 - **[directed.systems](https://directed.systems)** — Website
 
-## What This Document Answers
+## What This Paper Argues
 
-1. **Why are humans still necessary?** Based on research from Fitts (1951) through Bainbridge (1983) to current Stanford/MIT/WEF studies.
+1. **The main near-term pattern is not full replacement.** It is the rise of systems that increasingly direct work.
+2. **Human agency still matters.** Capability alone does not decide how much control should remain with people.
+3. **The paper proposes a diagnostic lens.** Directed systems are identified through shifted initiative, retained human consequence, and asymmetric learning.
+4. **The biggest risk is misdesign.** Organizations can keep humans in the loop while weakening their real agency, context, and skill.
+5. **Productivity gains do not remove training and failure-path concerns.** Accountability, onboarding, and exception handling remain design problems.
 
-2. **What skills are changing in value?** Information processing decreasing, interpersonal and judgment skills increasing.
+## Positioning
 
-3. **How should you prepare?** Five practical strategies for any profession.
+This is not a peer-reviewed academic paper and does not claim original empirical discovery. It is a practitioner paper that synthesizes classic automation research with recent evidence from NBER, Stanford, MIT, WEF, and Anthropic and proposes a bounded diagnostic lens for analyzing current AI workflows.
 
-4. **What are the risks?** The ironies of automation, the substitution myth, and why they remain unsolved.
+## Disclosure
 
-## Key Concepts
-
-**Levels of Automation** (Sheridan & Verplank, 1978): "Directed" refers to configurations where AI holds significant decision-making authority while humans retain execution and oversight.
-
-**The Centaur Principle**: Human-AI collaboration can outperform either alone when well-designed (Kasparov's advanced chess, Mayo Clinic radiology).
-
-**Ironies of Automation** (Bainbridge, 1983): Automation makes remaining work harder, skills decay, monitoring fails, opacity kills. Unsolved after 40 years.
-
-## What This Is Not
-
-A manifesto claiming to define the future. It is a practical guide summarizing research and offering preparation advice.
+This paper was researched, drafted, and edited by Petru Arakiss with AI assistance, including Anthropic's Claude Code and OpenAI Codex. Final judgment and responsibility remain with the author.
 
 ## Version
 
-v0.1 — January 2026
+v0.2.0 — March 2026
 
 ## Author
 
